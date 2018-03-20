@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" language="javascript" src="js/Main.js"></script>
+    <title>Get Score From Trust Game</title>
+</head>
+<body>
+<div>
+    <p>
+        Enter your moves as a string of 0s and 1s, where 0 is cheat and 1 is cooperate.
+    </p>
+    <p>
+        There are a total of 25 moves.
+    </p>
+</div>
+<div>
+    <p>
+        <textarea id="moves" placeholder="Enter moves..."></textarea>
+    </p>
+</div>
+<div>
+    <p>
+        <button onclick="main()">Calculate Points</button>
+    </p>
+</div>
+<div>
+    <p>
+        <textarea readonly id="output"></textarea>
+    </p>
+</div>
+</body>
+</html>
